@@ -7,7 +7,7 @@ print("Duvido você acertar o número secreto!!!")
 numero_escolhido = int(input("Escolha o número: "))
 
 while numero_escolhido != numero_secreto:
-    print("Número errado tente novamente")
+    print("Número errado tente mais uma vez")
     if numero_escolhido >= numero_secreto:
         print("O número secreto é menor")
     else:
